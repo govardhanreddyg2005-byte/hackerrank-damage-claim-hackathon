@@ -79,7 +79,6 @@ def detect_issue(users_claim):
     return detected
 
 
-
 def main():
 
     claim = input("Customer: ")
