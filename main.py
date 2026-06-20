@@ -20,11 +20,11 @@ def image_path(path):
         return path
 
 object_parts = {
-"car": {
-    "car_parts": {
-        "front_bumper", "rear_bumper", "door", "hood",
-        "windshield", "side_mirror", "headlight",
-        "taillight", "fender", "quarter_panel", "body"
+    "car": {
+        "car_parts": {
+            "front_bumper", "rear_bumper", "door", "hood",
+            "windshield", "side_mirror", "headlight",
+            "taillight", "fender", "quarter_panel", "body"
         }
     },
 
@@ -37,8 +37,8 @@ object_parts = {
 
     "package": {
         "package_parts": {
-            "box", "package_corner", "package_side",
-            "seal", "label", "contents", "item"
+            "box", "package_corner", "package_slide",
+            "seal","label","contents", "item"
         }
     }
 }
@@ -46,7 +46,7 @@ object_parts = {
 issue_types = {
     "dent",
     "scratch",
-    "crack",
+    "crack"
     "glass_shatter",
     "broken_part",
     "missing_part",
