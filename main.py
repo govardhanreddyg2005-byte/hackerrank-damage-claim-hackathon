@@ -106,9 +106,9 @@ def main():
             "supporting_image_ids",
             "valid_image",
             "severity"
+
         ])
 
-        # for each claim row
         writer.writerow([
             user_ids[0],
             *image_paths[0],
@@ -123,7 +123,8 @@ def main():
             "none",
             "false",
             "unknown"
-        ]) 
+
+        ])
 
 if __name__ == "__main__":
     main()
